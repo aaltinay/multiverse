@@ -1,5 +1,5 @@
 import pwn
-pwn.context(os='linux',arch='i386')
+pwn.context(os='linux',arch='i386',bits=32)
 import re
 import struct
 
